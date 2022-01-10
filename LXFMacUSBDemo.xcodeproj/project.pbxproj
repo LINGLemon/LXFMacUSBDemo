@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1A1473278C34E300ACC4A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A1472278C34E300ACC4A8 /* AppDelegate.m */; };
+		BE1A1475278C34E900ACC4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1A1474278C34E900ACC4A8 /* Assets.xcassets */; };
+		BE1A1478278C34E900ACC4A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1A1476278C34E900ACC4A8 /* MainMenu.xib */; };
+		BE1A147A278C34E900ACC4A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A1479278C34E900ACC4A8 /* main.m */; };
+		BE1A1487278C358100ACC4A8 /* LXFDeviceCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A1481278C358000ACC4A8 /* LXFDeviceCollectionViewItem.m */; };
+		BE1A1488278C358100ACC4A8 /* LXFDeviceCollectionViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1A1484278C358100ACC4A8 /* LXFDeviceCollectionViewItem.xib */; };
+		BE1A1489278C358100ACC4A8 /* LXFMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE1A1485278C358100ACC4A8 /* LXFMainWindowController.m */; };
+		BE1A148A278C358100ACC4A8 /* LXFMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1A1486278C358100ACC4A8 /* LXFMainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE1A146E278C34E300ACC4A8 /* LXFMacUSBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFMacUSBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A1471278C34E300ACC4A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BE1A1472278C34E300ACC4A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BE1A1474278C34E900ACC4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1A1477278C34E900ACC4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BE1A1479278C34E900ACC4A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE1A147B278C34E900ACC4A8 /* LXFMacUSBDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LXFMacUSBDemo.entitlements; sourceTree = "<group>"; };
+		BE1A1481278C358000ACC4A8 /* LXFDeviceCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFDeviceCollectionViewItem.m; sourceTree = "<group>"; };
+		BE1A1482278C358000ACC4A8 /* LXFMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFMainWindowController.h; sourceTree = "<group>"; };
+		BE1A1483278C358100ACC4A8 /* LXFDeviceCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFDeviceCollectionViewItem.h; sourceTree = "<group>"; };
+		BE1A1484278C358100ACC4A8 /* LXFDeviceCollectionViewItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFDeviceCollectionViewItem.xib; sourceTree = "<group>"; };
+		BE1A1485278C358100ACC4A8 /* LXFMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFMainWindowController.m; sourceTree = "<group>"; };
+		BE1A1486278C358100ACC4A8 /* LXFMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LXFMainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1A146B278C34E300ACC4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1A1465278C34E300ACC4A8 = {
+			isa = PBXGroup;
+			children = (
+				BE1A1470278C34E300ACC4A8 /* LXFMacUSBDemo */,
+				BE1A146F278C34E300ACC4A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1A146F278C34E300ACC4A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A146E278C34E300ACC4A8 /* LXFMacUSBDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1A1470278C34E300ACC4A8 /* LXFMacUSBDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BE1A1471278C34E300ACC4A8 /* AppDelegate.h */,
+				BE1A1472278C34E300ACC4A8 /* AppDelegate.m */,
+				BE1A1482278C358000ACC4A8 /* LXFMainWindowController.h */,
+				BE1A1485278C358100ACC4A8 /* LXFMainWindowController.m */,
+				BE1A1486278C358100ACC4A8 /* LXFMainWindowController.xib */,
+				BE1A1483278C358100ACC4A8 /* LXFDeviceCollectionViewItem.h */,
+				BE1A1481278C358000ACC4A8 /* LXFDeviceCollectionViewItem.m */,
+				BE1A1484278C358100ACC4A8 /* LXFDeviceCollectionViewItem.xib */,
+				BE1A1474278C34E900ACC4A8 /* Assets.xcassets */,
+				BE1A1476278C34E900ACC4A8 /* MainMenu.xib */,
+				BE1A1479278C34E900ACC4A8 /* main.m */,
+				BE1A147B278C34E900ACC4A8 /* LXFMacUSBDemo.entitlements */,
+			);
+			path = LXFMacUSBDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1A146D278C34E300ACC4A8 /* LXFMacUSBDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1A147E278C34E900ACC4A8 /* Build configuration list for PBXNativeTarget "LXFMacUSBDemo" */;
+			buildPhases = (
+				BE1A146A278C34E300ACC4A8 /* Sources */,
+				BE1A146B278C34E300ACC4A8 /* Frameworks */,
+				BE1A146C278C34E300ACC4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFMacUSBDemo;
+			productName = LXFMacUSBDemo;
+			productReference = BE1A146E278C34E300ACC4A8 /* LXFMacUSBDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1A1466278C34E300ACC4A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BE1A146D278C34E300ACC4A8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BE1A1469278C34E300ACC4A8 /* Build configuration list for PBXProject "LXFMacUSBDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE1A1465278C34E300ACC4A8;
+			productRefGroup = BE1A146F278C34E300ACC4A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1A146D278C34E300ACC4A8 /* LXFMacUSBDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1A146C278C34E300ACC4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A1475278C34E900ACC4A8 /* Assets.xcassets in Resources */,
+				BE1A1488278C358100ACC4A8 /* LXFDeviceCollectionViewItem.xib in Resources */,
+				BE1A1478278C34E900ACC4A8 /* MainMenu.xib in Resources */,
+				BE1A148A278C358100ACC4A8 /* LXFMainWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1A146A278C34E300ACC4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A147A278C34E900ACC4A8 /* main.m in Sources */,
+				BE1A1487278C358100ACC4A8 /* LXFDeviceCollectionViewItem.m in Sources */,
+				BE1A1473278C34E300ACC4A8 /* AppDelegate.m in Sources */,
+				BE1A1489278C358100ACC4A8 /* LXFMainWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE1A1476278C34E900ACC4A8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1A1477278C34E900ACC4A8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1A147C278C34E900ACC4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BE1A147D278C34E900ACC4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BE1A147F278C34E900ACC4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LXFMacUSBDemo/LXFMacUSBDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6RTP7B9HD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.test.LXFMacUSBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BE1A1480278C34E900ACC4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LXFMacUSBDemo/LXFMacUSBDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y6RTP7B9HD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.test.LXFMacUSBDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1A1469278C34E300ACC4A8 /* Build configuration list for PBXProject "LXFMacUSBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A147C278C34E900ACC4A8 /* Debug */,
+				BE1A147D278C34E900ACC4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1A147E278C34E900ACC4A8 /* Build configuration list for PBXNativeTarget "LXFMacUSBDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1A147F278C34E900ACC4A8 /* Debug */,
+				BE1A1480278C34E900ACC4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1A1466278C34E300ACC4A8 /* Project object */;
+}
